@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-bg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pagina Inicial</title>
+        <link rel="stylesheet" href="style-home.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa"></div>
+                <nav>
+                    <a href="index.html"><img src="foto-perfil.png"  class="foto-perfil"></a>
+                    <h1 class="nome">Gustavo Brasil</h1>
+                    <!-- Pequena função para criar um botão que ao clicado ativa o Modo Escuro -->
+                    <button onclick="myFunction()">Aperte-me</button>
+                    <script>
+                        function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                        element.classList.toggle("dark-border .apresentacao");
+                        }
+                    </script>
+                    <ul>
+                        <li><a href="index.html">Sobre Mim</a></li>
+                        <li><a href="curriculo.html">Currículo</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <main>
+                <div class="apresentacao">
+                    <script>
+                        let input = prompt("Oi! Qual seu nome?");
+                        document.write("Olá " + input + ", eu sou o Gustavo!")
+                    </script>
+                    <p>Eu sou um jovem de 20 anos, morador do Rio de Janeiro. Estou cursando Sistemas de Informação na 
+                    Universidade Veiga de Almeida, com início em 2022.</p>
+                    <p>Sou apaixonado por computação, tendo meus maiores interesses na área de devOps.
+                    busco trabalhar como Administrador de Sistemas. Tenho conhecimentos em Linux, virtualização, 
+                    HTML, CSS, JavaScript básico e Python.</p>            
+                    <img class ="eu" src="sem-fundo.png">    
+                </div>
+        </main>
+        
+        <footer>
+            <div class="caixa-rodape"></div>
+        </footer>
+    </body>
+</html>

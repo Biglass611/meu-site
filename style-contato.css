@@ -1,0 +1,76 @@
+header {
+    background-color: #FD974C;
+}
+
+.caixa {
+    width: fill;
+    position:relative;
+    margin: 20px;
+    padding: 4%;
+}
+
+header img {
+    max-width: 115px;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    padding: 3px;
+    border: #000000 solid 2px;
+    border-radius: 100%;
+}
+
+.nome {
+    text-align: right;
+    position:absolute;
+    font-size: 40px;
+    top: 12%;
+    right: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+
+nav {
+    display: flex;
+    flex: row;
+}
+
+nav ul{
+    position: absolute;
+    top: 14%;
+    left: 3%;
+}
+
+nav li {
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 230px;
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+nav li a {
+    color:#000000;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    position:relative;
+    color: #FFFFFF;
+    border-bottom:#FFFFFF solid 2px;
+    border-spacing: 30px;
+}
+
+/* Tudo referente ao Footer */
+
+footer {
+    background-color: #FD974C;
+}
+
+.caixa-rodape {
+    position: absolute;
+    width: fill;
+    position:relative;
+    bottom: 50%;
+    margin: 20px;
+    padding: 4%;
+}
